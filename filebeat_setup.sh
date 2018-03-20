@@ -1,7 +1,7 @@
 #!/bin/bash  
 
 echo "**** downloading filebeat ****"
-curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-6.2.2-amd64.deb
+curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-6.1.1-amd64.deb
 
 echo "**** installing filebeat ****"
 sudo dpkg -i filebeat-6.2.2-amd64.deb
