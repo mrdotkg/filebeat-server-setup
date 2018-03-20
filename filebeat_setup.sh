@@ -22,7 +22,7 @@ sudo mkdir /var/log/mysql
 sudo wget -O /var/log/apache2/access.log https://raw.githubusercontent.com/measdot/data/master/access.log
 sudo wget -O /var/log/apache2/error.log https://raw.githubusercontent.com/measdot/data/master/error.log
 sudo wget -O /var/log/mysql/error.log https://raw.githubusercontent.com/measdot/data/master/mysql/error.log
-sudo wget -O /var/log/mysql/error.log https://raw.githubusercontent.com/measdot/data/master/mysql/mysql-slow.log
+sudo wget -O /var/log/mysql/mysql-slow.log https://raw.githubusercontent.com/measdot/data/master/mysql/mysql-slow.log
 
 echo "**** feeding logs to elk ****"
 sudo filebeat -e
