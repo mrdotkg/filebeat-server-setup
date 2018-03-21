@@ -17,16 +17,17 @@
 # =====================RUNNING THIS SCRIPT==========================
 
 filebeat_conf="https://raw.githubusercontent.com/measdot/data/master/filebeat_conf/local/filebeat.yml"
+version="6.1.1"
 
 if [[ $1 = "--prod" ]]; then
    filebeat_conf="https://raw.githubusercontent.com/measdot/data/master/filebeat_conf/prod/filebeat.yml"
 fi
 
 echo "**** downloading filebeat ****"
-curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-6.1.1-amd64.deb
+curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-$version-amd64.deb
 
 echo "**** installing filebeat ****"
-sudo dpkg -i filebeat-6.1.1-amd64.deb
+sudo dpkg -i filebeat-$version-amd64.deb
 
 echo "**** running filebeat ****"
 sudo wget -O /etc/filebeat/filebeat.yml $filebeat_conf 
