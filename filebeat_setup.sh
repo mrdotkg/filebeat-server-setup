@@ -11,6 +11,16 @@
 #            ~~~~~CHEERS~~~~~
 
 
+# =================HOW TO RUN THIS SCRIPT=====================================
+#
+# wget https://github.com/measdot/data/blob/master/filebeat_setup.sh
+# sudo chmod +x ./filebeat_setup.sh
+# ./filebeat_setup.sh
+#
+# =================HOW TO RUN THIS SCRIPT=====================================
+
+
+
 echo "**** downloading filebeat ****"
 curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-6.1.1-amd64.deb
 
