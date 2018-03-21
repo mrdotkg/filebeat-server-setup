@@ -18,6 +18,7 @@
 filebeat_conf="https://raw.githubusercontent.com/measdot/data/master/filebeat_conf/local/filebeat.yml"
 if [ $1 = "--prod" ]; then
    filebeat_conf="https://raw.githubusercontent.com/measdot/data/master/filebeat_conf/prod/filebeat.yml"
+fi
 echo $filebeat_conf
 sudo wget -O /etc/filebeat/filebeat.yml $filebeat_conf 
 exit
