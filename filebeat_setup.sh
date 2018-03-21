@@ -15,7 +15,9 @@
 #                        ~~~~~CHEERS~~~~~
 # =====================RUNNING THIS SCRIPT==========================
 
-
+filebeat_conf="https://raw.githubusercontent.com/measdot/data/master/filebeat_conf/local/filebeat.yml"
+if [ $1 = "--prod" ]; then
+   filebeat_conf="https://raw.githubusercontent.com/measdot/data/master/filebeat_conf/prod/filebeat.yml"
 
 echo "**** downloading filebeat ****"
 curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-6.1.1-amd64.deb
@@ -24,7 +26,7 @@ echo "**** installing filebeat ****"
 sudo dpkg -i filebeat-6.2.2-amd64.deb
 
 echo "**** running filebeat ****"
-sudo wget -O /etc/filebeat/filebeat.yml https://raw.githubusercontent.com/measdot/data/master/filebeat.yml 
+sudo wget -O /etc/filebeat/filebeat.yml $filebeat_conf 
 sudo filebeat -e setup --dashboards
 sudo service filebeat restart
 
