@@ -17,7 +17,7 @@
 # =====================RUNNING THIS SCRIPT==========================
 
 filebeat_conf="https://raw.githubusercontent.com/measdot/data/master/filebeat_conf/local/filebeat.yml"
-version="6.1.1"
+version="6.2.2"
 
 if [[ $1 = "--prod" ]]; then
    filebeat_conf="https://raw.githubusercontent.com/measdot/data/master/filebeat_conf/prod/filebeat.yml"
