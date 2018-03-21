@@ -10,3 +10,305 @@ InnoDB: a new database to be created!
 070823 21:00:56       1 Query       select * from category
 070917 16:29:01      21 Query       select * from location
 070917 16:29:12      21 Query       select * from location where id = 1 LIMIT 1
+2015-11-10 15:26:56 10fc InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2015-11-10 15:26:56 4348 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2015-11-10 15:26:56 4348 [Note] InnoDB: The InnoDB memory heap is disabled
+2015-11-10 15:26:56 4348 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2015-11-10 15:26:56 4348 [Note] InnoDB: Memory barrier is not used
+2015-11-10 15:26:56 4348 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2015-11-10 15:26:56 4348 [Note] InnoDB: Not using CPU crc32 instructions
+2015-11-10 15:26:56 4348 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2015-11-10 15:26:56 4348 [Note] InnoDB: Completed initialization of buffer pool
+2015-11-10 15:26:56 4348 [Note] InnoDB: Highest supported file format is Barracuda.
+2015-11-10 15:26:57 4348 [Note] InnoDB: 128 rollback segment(s) are active.
+2015-11-10 15:26:57 4348 [Note] InnoDB: Waiting for purge to start
+2015-11-10 15:26:57 4348 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.26-74.0 started; log sequence number 1835027
+2015-11-10 15:26:57 6140 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2015-11-10 15:26:57 4348 [Note] Plugin 'FEEDBACK' is disabled.
+2015-11-10 15:26:57 4348 [Note] Server socket created on IP: '::'.
+2015-11-10 15:26:57 4348 [Note] Event Scheduler: Loaded 0 events
+2015-11-10 15:26:57 4348 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.8-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2015-11-10 15:27:11 5152 [Note] C:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+
+2015-11-10 15:27:11 5152 [Note] Event Scheduler: Purging the queue. 0 events
+2015-11-10 15:27:11 5732 [Note] InnoDB: FTS optimize thread exiting.
+2015-11-10 15:27:11 5152 [Note] InnoDB: Starting shutdown...
+2015-11-10 15:27:13 5152 [Note] InnoDB: Shutdown completed; log sequence number 1835037
+2015-11-10 15:27:13 5152 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2018-01-16 11:57:50 2444 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-01-16 11:57:50 9284 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-01-16 11:57:51 9284 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-01-16 11:57:51 9284 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-01-16 11:57:51 9284 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-16 11:57:51 9284 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-16 11:57:51 9284 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-16 11:57:51 9284 [Note] InnoDB: Using generic crc32 instructions
+2018-01-16 11:57:51 9284 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-01-16 11:57:51 9284 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-16 11:57:51 9284 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-01-16 11:57:51 9284 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-01-16 11:57:51 9284 [Note] InnoDB: Waiting for purge to start
+2018-01-16 11:57:51 9284 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1835037
+2018-01-16 11:57:51 6268 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-01-16 11:57:51 9284 [Note] Plugin 'FEEDBACK' is disabled.
+2018-01-16 11:57:51 9284 [Note] Server socket created on IP: '::'.
+2018-01-16 11:57:51 9284 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-02-07 11:13:53 1987c InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-02-07 11:13:53 104572 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-02-07 11:13:53 104572 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-02-07 11:13:53 104572 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-02-07 11:13:53 104572 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-02-07 11:13:53 104572 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-02-07 11:13:53 104572 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-02-07 11:13:53 104572 [Note] InnoDB: Using generic crc32 instructions
+2018-02-07 11:13:53 104572 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-02-07 11:13:53 104572 [Note] InnoDB: Completed initialization of buffer pool
+2018-02-07 11:13:53 104572 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-02-07 11:13:53 104572 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1835047 in the ib_logfiles!
+2018-02-07 11:13:53 104572 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-02-07 11:13:54 104572 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-02-07 11:13:54 104572 [Note] InnoDB: Waiting for purge to start
+2018-02-07 11:13:54 104572 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1835047
+2018-02-07 11:13:54 18652 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-02-07 11:13:54 104572 [Note] Plugin 'FEEDBACK' is disabled.
+2018-02-07 11:13:54 104572 [Note] Server socket created on IP: '::'.
+2018-02-07 11:13:54 104572 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-02-09 11:50:47 3b78 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-02-09 11:50:47 15224 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-02-09 11:50:47 15224 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-02-09 11:50:47 15224 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-02-09 11:50:47 15224 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-02-09 11:50:47 15224 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-02-09 11:50:47 15224 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-02-09 11:50:47 15224 [Note] InnoDB: Using generic crc32 instructions
+2018-02-09 11:50:47 15224 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-02-09 11:50:47 15224 [Note] InnoDB: Completed initialization of buffer pool
+2018-02-09 11:50:48 15224 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-02-09 11:50:48 15224 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1944148 in the ib_logfiles!
+2018-02-09 11:50:49 15224 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-02-09 11:50:52 15224 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-02-09 11:50:52 15224 [Note] InnoDB: Waiting for purge to start
+2018-02-09 11:50:52 15224 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1944148
+2018-02-09 11:50:52 14948 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-02-09 11:50:52 15224 [Note] Plugin 'FEEDBACK' is disabled.
+2018-02-09 11:50:52 15224 [Note] Server socket created on IP: '::'.
+2018-02-09 11:50:53 15224 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-02-13 11:37:46 40d8 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-02-13 11:37:46 16600 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-02-13 11:37:46 16600 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-02-13 11:37:46 16600 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-02-13 11:37:46 16600 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-02-13 11:37:46 16600 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-02-13 11:37:46 16600 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-02-13 11:37:46 16600 [Note] InnoDB: Using generic crc32 instructions
+2018-02-13 11:37:46 16600 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-02-13 11:37:46 16600 [Note] InnoDB: Completed initialization of buffer pool
+2018-02-13 11:37:46 16600 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-02-13 11:37:46 16600 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1984770 in the ib_logfiles!
+2018-02-13 11:37:46 16600 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-02-13 11:37:47 16600 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-02-13 11:37:47 16600 [Note] InnoDB: Waiting for purge to start
+2018-02-13 11:37:47 16600 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1984770
+2018-02-13 11:37:47 17104 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-02-13 11:37:47 16600 [Note] Plugin 'FEEDBACK' is disabled.
+2018-02-13 11:37:47 16600 [Note] Server socket created on IP: '::'.
+2018-02-13 11:37:47 16600 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-02-20 15:55:05 3b74 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-02-20 15:55:05 15220 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-02-20 15:55:05 15220 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-02-20 15:55:05 15220 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-02-20 15:55:05 15220 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-02-20 15:55:05 15220 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-02-20 15:55:05 15220 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-02-20 15:55:05 15220 [Note] InnoDB: Using generic crc32 instructions
+2018-02-20 15:55:05 15220 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-02-20 15:55:05 15220 [Note] InnoDB: Completed initialization of buffer pool
+2018-02-20 15:55:05 15220 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-02-20 15:55:05 15220 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1993578 in the ib_logfiles!
+2018-02-20 15:55:06 15220 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-02-20 15:55:06 15220 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-02-20 15:55:06 15220 [Note] InnoDB: Waiting for purge to start
+2018-02-20 15:55:06 15220 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1993578
+2018-02-20 15:55:06 12200 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-02-20 15:55:06 15220 [Note] Plugin 'FEEDBACK' is disabled.
+2018-02-20 15:55:06 15220 [Note] Server socket created on IP: '::'.
+2018-02-20 15:55:06 15220 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-02-21 14:18:29 36340 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-02-21 14:18:29 36340 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-02-21 14:30:09 36340 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-02-21 14:30:09 36340 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-02-21 14:30:59 36340 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-02-21 14:30:59 36340 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-02-21 14:31:03 36340 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-02-21 14:31:03 36340 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-02-21 19:09:18 39028 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-02-21 19:09:18 39028 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-02-22 12:53:07 59700 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-02-22 12:53:07 59700 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-02-22 12:53:20 59700 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-02-22 12:53:20 59700 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-02-23 16:51:14 142bc InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-02-23 16:51:14 82620 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-02-23 16:51:14 82620 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-02-23 16:51:14 82620 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-02-23 16:51:14 82620 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-02-23 16:51:14 82620 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-02-23 16:51:14 82620 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-02-23 16:51:14 82620 [Note] InnoDB: Using generic crc32 instructions
+2018-02-23 16:51:14 82620 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-02-23 16:51:14 82620 [Note] InnoDB: Completed initialization of buffer pool
+2018-02-23 16:51:14 82620 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-02-23 16:51:14 82620 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 2061037 in the ib_logfiles!
+2018-02-23 16:51:14 82620 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-02-23 16:51:14 82620 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-02-23 16:51:14 82620 [Note] InnoDB: Waiting for purge to start
+2018-02-23 16:51:14 82620 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 2061037
+2018-02-23 16:51:14 90684 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-02-23 16:51:14 82620 [Note] Plugin 'FEEDBACK' is disabled.
+2018-02-23 16:51:15 82620 [Note] Server socket created on IP: '::'.
+2018-02-23 16:51:15 82620 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-02-26 12:22:54 197a0 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-02-26 12:22:54 104352 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-02-26 12:22:54 104352 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-02-26 12:22:54 104352 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-02-26 12:22:54 104352 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-02-26 12:22:54 104352 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-02-26 12:22:54 104352 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-02-26 12:22:54 104352 [Note] InnoDB: Using generic crc32 instructions
+2018-02-26 12:22:54 104352 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-02-26 12:22:54 104352 [Note] InnoDB: Completed initialization of buffer pool
+2018-02-26 12:22:54 104352 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-02-26 12:22:54 104352 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 2061047 in the ib_logfiles!
+2018-02-26 12:22:54 104352 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-02-26 12:22:55 104352 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-02-26 12:22:55 104352 [Note] InnoDB: Waiting for purge to start
+2018-02-26 12:22:55 104352 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 2061047
+2018-02-26 12:22:55 102468 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-02-26 12:22:55 104352 [Note] Plugin 'FEEDBACK' is disabled.
+2018-02-26 12:22:55 104352 [Note] Server socket created on IP: '::'.
+2018-02-26 12:22:55 104352 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-02-27 11:38:21 3e68 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-02-27 11:38:21 15976 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-02-27 11:38:21 15976 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-02-27 11:38:21 15976 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-02-27 11:38:21 15976 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-02-27 11:38:21 15976 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-02-27 11:38:21 15976 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-02-27 11:38:21 15976 [Note] InnoDB: Using generic crc32 instructions
+2018-02-27 11:38:21 15976 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-02-27 11:38:21 15976 [Note] InnoDB: Completed initialization of buffer pool
+2018-02-27 11:38:22 15976 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-02-27 11:38:22 15976 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 2065255 in the ib_logfiles!
+2018-02-27 11:38:22 15976 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-02-27 11:38:24 15976 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-02-27 11:38:24 15976 [Note] InnoDB: Waiting for purge to start
+2018-02-27 11:38:24 15976 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 2065255
+2018-02-27 11:38:24 12000 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-02-27 11:38:24 15976 [Note] Plugin 'FEEDBACK' is disabled.
+2018-02-27 11:38:24 15976 [Note] Server socket created on IP: '::'.
+2018-02-27 11:38:25 15976 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-02-28 14:54:48 27968 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-02-28 14:54:48 27968 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-01 11:58:05 63564 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-01 11:58:05 63564 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-01 11:59:38 63564 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-01 11:59:38 63564 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-01 14:55:19 62732 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-01 14:55:19 62732 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-02 11:35:16 83912 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-02 11:35:16 83912 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-02 14:22:00 89708 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-02 14:22:00 89708 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-02 15:40:33 89708 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-02 15:40:33 89708 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-02 15:51:37 87100 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-02 15:51:37 87100 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-06 11:17:56 180972 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-06 11:17:56 180972 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-12 11:58:44 326348 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-12 11:58:44 326348 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-12 13:23:52 329088 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-12 13:23:52 329088 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-12 14:10:25 320640 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-12 14:10:25 320640 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-12 14:22:50 320640 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-12 14:22:50 320640 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-12 14:41:23 320640 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-12 14:41:23 320640 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-12 14:52:54 317064 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-12 14:52:54 317064 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-12 15:50:35 320640 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-12 15:50:35 320640 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-12 15:58:38 317064 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-12 15:58:38 317064 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-12 16:27:35 320640 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-12 16:27:35 320640 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-13 11:14:26 349872 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-13 11:14:26 349872 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-13 11:21:19 350804 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-13 11:21:19 350804 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-13 11:51:56 349872 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-13 11:51:56 349872 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-13 12:18:39 349312 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-13 12:18:39 349312 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-13 12:23:06 349312 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-13 12:23:06 349312 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-13 12:41:37 351588 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-13 12:41:37 351588 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-13 12:43:00 351588 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-13 12:43:00 351588 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-13 12:50:51 349872 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-13 12:50:51 349872 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-13 12:54:55 349872 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-13 12:54:55 349872 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-13 16:28:10 329212 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-13 16:28:10 329212 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-13 16:29:51 355860 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-13 16:29:51 355860 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-13 17:03:21 355860 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-13 17:03:21 355860 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-14 11:03:49 372156 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-14 11:03:49 372156 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-14 14:27:25 374476 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-14 14:27:25 374476 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-14 14:28:26 374476 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-14 14:28:26 374476 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-14 14:36:00 376944 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-14 14:36:00 376944 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-14 14:52:57 377384 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-14 14:52:57 377384 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-14 15:16:18 374476 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-14 15:16:18 374476 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-14 16:17:09 374476 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-14 16:17:09 374476 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-15 13:29:14 396272 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-15 13:29:14 396272 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-15 16:00:59 402600 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-15 16:00:59 402600 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-15 16:03:54 403164 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-15 16:03:54 403164 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-16 12:36:31 419748 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-16 12:36:31 419748 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-16 12:55:22 419748 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-16 12:55:22 419748 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-19 14:29:59 422176 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-19 14:29:59 422176 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+
